@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px 0px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.btn {
+    height: 250px;
+    width: 250px;
+    border: 12px solid black;
+}
+
+.orange {
+    background-color: orange;
+    border-radius: 100% 0% 26% 0%;
+}
+
+.blue {
+    background-color: blue;
+    border-radius: 0% 100% 0% 26%;
+}
+
+.green {
+    background-color: green;
+    border-radius: 0% 26% 0% 100%;
+}
+
+.red {
+    background-color: red;
+    border-radius: 26% 0% 100% 0%;
+}
+
+.line-1 {
+    display: flex;
+}
+
+.line-2 {
+    display: flex;
+}
+
+.gameflash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: rgb(39, 37, 37);
+}
+
+.box-container {
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-name {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
